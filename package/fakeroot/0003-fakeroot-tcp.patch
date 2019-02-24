@@ -1,0 +1,11 @@
+--- a/config.h.in 2019-02-23 22:41:28.408978400 +0000
++++ b/config.h.in 2019-02-23 22:41:47.177909800 +0000
+@@ -7,7 +7,7 @@
+ #undef FAKEROOT_DB_PATH
+
+ /* use TCP instead of SysV IPC */
+-#undef FAKEROOT_FAKENET
++#define FAKEROOT_FAKENET
+
+ /* acl_t data type and associated functions are provided by OS */
+ #undef HAVE_ACL_T
